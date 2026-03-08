@@ -6,6 +6,10 @@
         <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <style>
+            .box{
+               padding: 20px;
+                border: solid 10px rgb(0, 0, 0) ;
+            }
     .circle{
         width:60px;
         height:60px;
@@ -17,23 +21,25 @@
                 align-items: center;
                 align-items: flex-start;
                 gap: 20px;
+                border: 2px solide white;padding: 10px;color: #1f1f1f;
+                margin: 100px;
+            }
+            .text>p{
+             border: 1px solid rgb(0, 0, 0);
+             padding: 5px;
+             width: 500px;
             }
             .smallimages{
                 display: flex;
                 gap:40px;
+                 margin: 150px;
+                margin-top: -300px;
             }
             .bigimage img{
-             width: 300px; 
+             width: 500px; 
+             margin-right: 60px;
             }
-            .texte{
-                max-width: 300px;
-            }
-            .texte{
-                font-size: 16px;
-                line-height: 1.6;
-                color:black;
-            }
-             body{
+            body{
      background: rgb(0, 0, 0);
             }
             .social-buttons{
@@ -59,6 +65,8 @@
             }
             .apps{
                 margin-top:30px;
+                  margin: 150px;
+                  margin-top: -100px;
             }
             .title{
                 text-align: center;
@@ -79,6 +87,7 @@
         </style>
     </head>
     <body> 
+        <div class="box">
         <p style="color: rgba(178, 173, 178, 0.7);">
     <h1 style="text-align: center;">
         <span style="color:white">À</span>
@@ -86,16 +95,16 @@
     </h1>
        <div class="about">
         <div class="text">
-       <p style="color: rgba(178, 173, 178, 0.7);"> La <span class="light"><b>Maison de l'Intelligence Artificielle(MIA)</b></span>de l'Université Hassiba Benbouali de Chlef est un espace dédié à la recherche,la formation et l'innovation en intelligence artifcielle.<p><br>
-       <p style="color: rgba(178, 173, 178, 0.7);"> Noter mission est de créer un écosystéme dynamique qui rassemble étudiant,chercheurs et professionnels autour des technologies de l'IA,tout en promouvant une approche éthique et responsable.</p>
+       <p style=" color: rgba(178, 173, 178, 0.7) ;"> La <span class="light"><b>Maison de l'Intelligence Artificielle(MIA)</b></span>de l'Université Hassiba Benbouali de Chlef est un espace dédié à la recherche,la formation et l'innovation en intelligence artifcielle.<p><br>
+       <p style=" color: rgba(178, 173, 178, 0.7) ;"> Noter mission est de créer un écosystéme dynamique qui rassemble étudiant,chercheurs et professionnels autour des technologies de l'IA,tout en promouvant une approche éthique et responsable.</p>
         </div>
         <div class="bigimage">
-        <img src="AI.jpg" alt="AI" width="400" lengthe="400"><br>
+        <img src="AI.jpg" alt="AI">
          </div>
          </div>
          <div class="smallimages">
         <img src="AI.jpg " class="circle">
-        <img src="uhbc.png " class="circle">
+        <img src="uhbc.jpg " class="circle">
         <img src="logo hasiba.png" class="circle"><br>
         </div>
         <div class="apps">
@@ -108,6 +117,7 @@
             <i class="fa-solid fa-envelope"></i>gmail</a>
         </div>
         </div>
+    </div>
     </body>
     <hr>
  </html>
